@@ -1,0 +1,22 @@
+.topInp{
+    width: 90%;
+    margin: 5px auto;
+    height: 25px;
+    overflow: hidden;
+}
+.topInp input{
+    width: 80%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+}
+.topInp button{
+    width: 20%;
+    background-color: #ccc;
+    height: 100%;
+    color: #fff;
+    line-height: 25px;
+}
+.topNavImg{
+    height: 35px;
+}
