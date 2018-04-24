@@ -1,8 +1,9 @@
 <template>
     <div>
-       <ul>
-          <li></li>
-          <li></li>
+       <ul class="navUl">
+          <li>买主购物</li>
+          <li>评审试用</li>
+          <li>买主要求</li>
        </ul>
        <img class="topNavImg fr" src="../assets/images/new.png" />
     </div>
@@ -14,5 +15,5 @@ export default {
 </script>
 
 <style>
-@import '../assets/css/components.css';
+
 </style>

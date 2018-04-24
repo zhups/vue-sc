@@ -6,6 +6,7 @@ import cart from '@/pages/cart'
 import my from '@/pages/my'
 import seek from '@/pages/seek'
 import productInfo from '@/pages/productInfo'
+import home from '@/pages/home'
 
 Vue.use(Router)
 
@@ -13,32 +14,36 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'index',
-      component: index
-    },
-    {
-      path: '/classify',
-      name: 'classify',
-      component: classify
-    },
-    {
-      path: '/cart',
-      name: 'cart',
-      component: cart
-    },
-    {
-      path: '/my',
-      name: 'my',
-      component: my
-    },
-    {
-      path: '/seek',
-      name: 'seek',
-      component: seek
+      component: home,
+      children: [
+        {
+          path: '/index',
+          component: index
+        },
+        {
+          path: '/classify',
+          component: classify
+        },
+        {
+          path: '/cart',
+          component: cart
+        },
+        {
+          path: '/my',
+          component: my
+        },
+        {
+          path: '/seek',
+          component: seek
+        },
+        {
+          path: '/',
+          component: index
+        }
+      ]
     },
     {
       path: '/productInfo',
-      name: 'productInfo',
       component: productInfo
     }
   ]

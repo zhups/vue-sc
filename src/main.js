@@ -3,9 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import TBrem from './assets/js/TBrem.js'
 require('./assets/css/style.css')
 Vue.config.productionTip = false
 
+vue.use(TBrem)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

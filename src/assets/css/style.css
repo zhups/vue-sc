@@ -48,7 +48,11 @@ button, select { outline:none; border: none;}
 .din{display: inline-block;}
 .wid{
     min-width: 300px;
-    max-width: 600px;
+    max-width: 750px;
     margin: 0 auto;
     overflow-x: hidden;
+}
+.image{
+    width: 45%;
+    border: 1px solid #000;
 }

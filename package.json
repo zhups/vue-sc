@@ -17,6 +17,8 @@
     "css-loader": "^0.28.11",
     "less": "^3.0.1",
     "less-loader": "^4.1.0",
+    "postcss-px2rem": "^0.3.0",
+    "px2rem-loader": "^0.1.9",
     "swiper": "^4.2.2",
     "vue": "^2.5.2",
     "vue-awesome-swiper": "^3.1.3",

@@ -1,31 +1,31 @@
 <template>
   <div class="tabs">
     <ul>
-      <router-link :to="{name:'index'}" tag="li" exact>
+      <router-link to="/index" tag="li" exact>
         <div>
           <i class="icon iconfont icon-31shouye"></i>
         </div>
         <div>首页</div>
       </router-link>
-      <router-link :to="{name:'classify'}" tag="li">
+      <router-link to="/classify" tag="li">
         <div>
           <i class="icon iconfont icon-zhubaoshipin"></i>
         </div>
         <div>分类</div>
       </router-link>
-      <router-link :to="{name:'seek'}" tag="li">
+      <router-link to="/seek" tag="li">
         <div>
           <i class="icon iconfont icon-zhubaoshipin"></i>
         </div>
         <div>收藏</div>
       </router-link>
-      <router-link :to="{name:'cart'}" tag="li">
+      <router-link to="/cart" tag="li">
         <div>
           <i class="icon iconfont icon-gouwucheman"></i>
         </div>
         <div>购物车</div>
       </router-link>
-      <router-link :to="{name:'my',params:{user:'xu'}}" tag="li">
+      <router-link to="/my" tag="li">
         <div>
           <i class="icon iconfont icon-wo"></i>
         </div>
